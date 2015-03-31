@@ -1,4 +1,6 @@
 import crypt
+import string
+
 def brute():
     file= open('passwd','r')
     line = file.readline()
